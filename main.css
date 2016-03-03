@@ -1,0 +1,22 @@
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar li {
+	display:inline;
+}
+.navbar a {
+	padding:14px 10px;
+	text-transform: uppercase;
+}
+.jumbotron {
+	height:800px;
+	background-image: 
+	url('http://www.learnin4livin.com/wp-content/uploads/2014/07/acl2.jpg');
+	background-size: 100% 100%;
+	margin-bottom: 0;
+
+}
+.jumbotron h1 {
+	font-size: 48px;
+	color: #0000ff;
+}
