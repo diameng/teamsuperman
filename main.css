@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Droid Serif Regular";
+	src:local('droid_serif_regular.ttf'),
+		url('droid_serif_regular.ttf'), format('truetype');
+	font-family: "Bello Pro";
+	src:local('Bello-Pro_6555.ttf'),
+		url('Bello-Pro_6555.ttf'), format('truetype');
+}
+
+body {
+	font-family: "Droid Serif Regular";
+}
