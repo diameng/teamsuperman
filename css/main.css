@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	font-size: 25px;
+	font-size: 20px;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
 	color: #fed136;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #fec503
 }
 .navbar-default .navbar-nav .dropdown-menu li a {
-	font-size: 10px;
+	font-size: 15px;
 }
 @media (min-width:768px) {
 	.navbar-default {
@@ -458,20 +458,20 @@ section h3.section-subheading {
 		padding: 0 100px 20px 20px
 	}
 }
-.team-member {
+.friend-member {
 	text-align: center;
 	margin-bottom: 50px
 }
-.team-member img {
+.friend-member img {
 	margin: 0 auto;
 	border: 7px solid #fff
 }
-.team-member h4 {
+.friend-member h4 {
 	margin-top: 25px;
 	margin-bottom: 0;
 	text-transform: none
 }
-.team-member p {
+.friend-member p {
 	margin-top: 0
 }
 aside.clients img {
