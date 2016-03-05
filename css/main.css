@@ -3,7 +3,7 @@ body {
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
-	color: #777
+	color: #777;
 }
 .text-primary {
 	color: #fed136
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #f7f7f7
 }
 .bg-darkest-gray {
-	background-color: #222
+	background-color: #222;
 }
 .btn-primary {
 	background-color: #fed136;
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-default {
 	background-color: #222;
-	border-color: transparent
+	border-color: transparent;
 }
 .navbar-default .navbar-brand {
 	color: #fed136;
@@ -686,11 +686,6 @@ h1 {
 	letter-spacing: 3px;
 	font-size: 40px;
 }
-.thumbnail {
-
-
-}
-
 .biography-text {
 	color: #ffffff;
 }
