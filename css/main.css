@@ -19,7 +19,7 @@ a, a:hover, a:focus, a:active, a.active {
 	outline: 0
 }
 a {
-	color: #fed136
+	color: #fed136;
 }
 a:hover, a:focus, a:active, a.active {
 	color: #fec503
@@ -688,4 +688,19 @@ h1 {
 }
 .biography-text {
 	color: #ffffff;
+}
+
+.btn .btn-primary btn-lg .read-more a {
+	color: #ffffff;
+}
+.intro {
+	width:100%;
+	position:relative;	
+	background: url("http://cp91279.biography.com/Bio_Mini-Bios_Marie-Curie_SF_HD_768x432-16x9.jpg") no-repeat top center;
+	background-size: cover;
+}
+blockquote {
+	font-family: Georgia, arial, sans-serif;
+	color: #bbb;
+	font-size: 20px;
 }
