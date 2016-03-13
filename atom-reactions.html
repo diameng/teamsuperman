@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Good Chemistry: Home</title>
+    <title>Good Chemistry</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
-<body>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+<body>
+   <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -49,7 +40,7 @@
             <div class="collapse navbar-collapse pull-right">
               <ul class="nav navbar-nav">
                 <li><a href="home.html">Home</a></li>
-                <li><a href="#">Periodic Table</a></li>
+                <li><a href="periodic.html">Periodic Table</a></li>
                 <li><a href="atom.html">The Atom</a></li>
                 <li><a href="biographies.html">Biographies</a></li>
                 <li class="dropdown">
@@ -64,19 +55,113 @@
             </div>
         </div>
     </nav>
-	
+
 	<!--Element reactions-->
-	<section id="element-reactions" class="bg-light-gray">
-		<div class="container">
-			<h2>When Elements React
-			</h2>
-			<h3 class="text-danger">Do NOT try this at home!<br>You can put yourself and others in danger!<br>You can damage your things.<br><br>Leave chemistry to the pros!
-			</h3>
-			    <button type="button" class="btn-primary">
-					<div class="panel">
-						<img src="11-Sodium-Tile-150x150.png" alt="sodium" class="img-responsive">
-						<img src="17-Chlorine-Tile-150x150.png" alt="chlorine" class="img-responsive">
-					</div>
-                </button>
-		</div>
-	</section>
+<!--Section Carousel  -->
+<section id="portfolio" class="bg-light-gray">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+     
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://img.youtube.com/vi/mzEOL-N2cbw/0.jpg" alt="..." style="margin: 0 auto;
+    height: 500px;
+    width: 800px;">
+          <div class="carousel-caption">
+              <h3 class="text-primary">Sodium + Chlorine</h3>
+              <h3 class="biography-text">(Na + Cl) </h3>
+              <a href="reaction-na-cl.html" class="btn btn-primary btn-lg ">See More &raquo</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://img.youtube.com/vi/ZpQkgM0msj4/0.jpg" alt="sodium and chlorine reaction" style="margin: 0 auto;
+    height: 500px;
+    width: 800px;">
+          <div class="carousel-caption">
+              <h3 class="text-primary">Bromine + Aluminum</h3>
+              <h3 class="biography-text">Br + Al</h3>
+              <a href="reaction-br-al.html" class="btn btn-primary btn-lg">See More &raquo</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://img.youtube.com/vi/HvVUtpdK7xw/0.jpg" alt="sodium and water reaction" class="biography-picture" style="margin: 0 auto;
+    height: 500px;
+    width: 800px;">
+          <div class="carousel-caption">
+              <h3 class="text-primary" data-animation="animated bounceInLeft">Sodium + Water</h3>
+              <h3 class="biography-text">Na + H20</h3>
+              <a href="reaction-na-h20.html" class="btn btn-primary btn-lg">See More &raquo</a>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div> <!-- Carousel -->
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Reactions</h2>
+                <h3 class="section-subheading text-muted">See interesting chemical reactions in the safety of your own chair.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Good Chemistry 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+</body>
+</html>
